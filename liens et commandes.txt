@@ -29,3 +29,18 @@ Production: objectif => exploiter bootstrap.
 On se sert de bootstrap, mais on va travailler les classes bootstrap dans ses feuilles de style
 par le biais de sass en se servant de Mixins pour se lier aux classes bootstrap.
 
+l'utilisation d'un cdn en ligne est problématique
+- d'un point de vue robustesse ( si le serveur cdn tombe en panne) 
+    => mise en place d'un fallback ou télécharger le download ou géré par un package mananger (npm, yarn)
+- d'un point de vue de la confidentialité car le cdn 'voit' toutes les requêtes qui sont sollicitées sur le site.
+
+
+##########################
+##      Navigateurs     ##
+##    Firefox - ESR     ##
+##########################
+
+Les version ESR sont mise à jour tous les 2 ans, 
+ce qui est plus 'confortable' que de mettre à jour les version des navigateurs toutes les 6 à 8 semaines.
+
+
