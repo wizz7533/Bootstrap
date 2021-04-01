@@ -1,0 +1,31 @@
+##########################
+##       BOOTSTRAP      ##
+##########################
+
+https://getbootstrap.com/
+
+
+##########################
+##     UTILISATIONS     ##
+##########################
+
+
+##########################
+##     UTILISATIONS 1   ##
+##     PROTOTYPAGE      ##
+##########################
+
+Mettre très vite en place une maquette client ( présentation 1 fois ==> jetable)
+Démarche fast and dirty : fournir un apperçu
+on sert des classes bootstrap mais on ne travaille pas les feuilles de style
+
+
+##########################
+##     UTILISATIONS 2   ##
+##       PROJET         ##
+##########################
+
+Production: objectif => exploiter bootstrap.
+On se sert de bootstrap, mais on va travailler les classes bootstrap dans ses feuilles de style
+par le biais de sass en se servant de Mixins pour se lier aux classes bootstrap.
+
