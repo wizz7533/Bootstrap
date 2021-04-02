@@ -13,11 +13,16 @@
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/navbar";
 // @import "../node_modules/bootstrap/scss/type";
 // @import "../node_modules/bootstrap/scss/images";
 // @import "../node_modules/bootstrap/scss/containers";
 // @import "../node_modules/bootstrap/scss/grid";
 // 5. Add additional custom code here - Components
 @import "components/nav-panel";
+@import "layout/main_content";
+@import "layout/product-card";
 @import "layout/layout";
+@import "components/navbar";
 @import "components/banner";

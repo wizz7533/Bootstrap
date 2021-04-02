@@ -1,0 +1,9 @@
+.navbar {
+    @extend .navbar-expand-lg;
+    nav>ul {
+        @extend .navbar-nav;
+        &>li>a {
+            @extend .nav-link;
+        }
+    }
+}
